@@ -11,7 +11,7 @@ public class CurrencyExchange {
             double sellingPrice = buyingPrice + 1;
             banks[i] = new Bank(bankName, buyingPrice, sellingPrice);
         }
-        double dollars = 1000; // Assuming you have 1000 dollars
+        double dollars = 1000;
         System.out.println("You have " + dollars + " dollars.");
 
         Bank bestBuyingBank = null;
